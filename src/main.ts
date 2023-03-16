@@ -30,7 +30,7 @@ async function createWindow() {
   mainWindow.loadURL("http://localhost:3000");
 
   arduinoConnection.on("data", async (data) => {
-    switch (data.toString("utf8")) {
+    switch (data.toString("utf8").trim()) {
       case "SORA-KEYBIND-ESC":
         await keyboard.type(Key.Escape);
         break;
