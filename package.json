@@ -13,7 +13,7 @@
   },
   "author": "Ezra Khairan Permana <ezra@rmecha.my.id>",
   "devDependencies": {
-    "@types/node": "^18.15.3",
+    "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "electron": "^23.1.4",
